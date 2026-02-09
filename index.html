@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Báo Tường Ngày Tết</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            background: linear-gradient(to bottom, #fff3cd, #ffffff);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+
+        /* ===== HEADER + HOA MAI ===== */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .flower {
+            font-size: 60px;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        h1 {
+            color: #c40000;
+            font-size: 48px;
+            margin: 5px 0;
+        }
+
+        h2 {
+            color: #d48806;
+            font-size: 26px;
+            margin: 0;
+        }
+
+        hr {
+            border: 2px solid #c40000;
+            margin: 25px 0;
+        }
+
+        h3 {
+            color: #c40000;
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* ===== HÌNH ẢNH ===== */
+        .image {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image img {
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+
+        .caption {
+            font-style: italic;
+            margin-top: 8px;
+            color: #555;
+        }
+
+        /* ===== VIDEO ===== */
+        .video {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        iframe {
+            width: 80%;
+            height: 450px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+
+        /* ===== THƠ ===== */
+        .poem {
+            background-color: #fff7e6;
+            padding: 15px;
+            border-left: 5px solid #c40000;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #555;
+        }
+        /* ===== GÓC ẢNH ===== */
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin: 25px 0;
+}
+
+.photo-item {
+    text-align: center;
+    background-color: #fff7e6;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.photo-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.photo-item p {
+    margin-top: 10px;
+    font-style: italic;
+    color: #a00000;
+}
+      /* ===== GÓC BÌNH LUẬN ===== */
+.comment-section {
+    background-color: #fff7e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-top: 30px;
+}
+
+.comment-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comment-section input,
+.comment-section textarea {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.comment-section button {
+    width: 160px;
+    padding: 10px;
+    background-color: #c40000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment-section button:hover {
+    background-color: #a00000;
+}
+
+.comment-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-left: 5px solid #c40000;
+    border-radius: 5px;
+}
+
+.comment-box img {
+    max-width: 200px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+<!-- HEADER -->
+<div class="header">
+    <img class="header-img" 
+         src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Hoa_mai_vang.jpg" 
+         alt="Hoa mai">
+
+    <div class="title">
+        <h1>XUÂN YÊU THƯƠNG</h1>
+        <h2>Chào mừng Tết Nguyên Đán</h2>
+    </div>
+
+    <img class="header-img" 
+         src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Hoa_dao.jpg" 
+         alt="Hoa đào">
+</div>
+
+    <hr>
+
+    <h3>🌟 Ý nghĩa ngày Tết</h3>
+    <p>
+        Tết Nguyên Đán là dịp lễ truyền thống quan trọng nhất của dân tộc Việt Nam,
+        là thời khắc giao hòa giữa đất trời, đánh dấu sự khởi đầu của một năm mới
+        với nhiều niềm tin, hy vọng và ước mơ tốt đẹp.
+    </p>
+
+    <div class="image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Tet_holiday_in_Vietnam.jpg">
+        <div class="caption">Không khí Tết rộn ràng khắp mọi miền đất nước</div>
+    </div>
+
+    <h3>🏮 Hương sắc ngày xuân</h3>
+    <p>
+        Mỗi độ xuân về, sắc mai vàng, đào thắm lại khoe hương trong gió.
+        Dù đi đâu xa, ai cũng mong được trở về sum họp bên gia đình,
+        cùng nhau đón một mùa xuân ấm áp, an lành.
+    </p>
+
+    <div class="image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Tet_market.jpg">
+        <div class="caption">Chợ Tết – nét đẹp văn hóa truyền thống</div>
+    </div>
+
+    <h3>🎬 Video không khí Tết</h3>
+    <div class="video">
+        <iframe 
+            src="https://www.youtube.com/embed/cthtCRmTcgA"
+            title="Không khí Tết Việt Nam"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <h3>✍️ Thơ mừng xuân</h3>
+    <div class="poem">
+        Xuân về hoa nở khắp nơi nơi<br>
+        Phúc lộc an khang đến mọi người<br>
+        Gia đình sum họp đầy hạnh phúc<br>
+        Năm mới bình an, trọn tiếng cười.
+    </div>
+    <!-- GÓC ẢNH -->
+<h3>🖼️ Góc ảnh ngày Tết</h3>
+
+<div class="photo-gallery">
+    <div class="photo-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Tet_market.jpg" alt="Chợ Tết">
+        <p>Chợ Tết rộn ràng</p>
+    </div>
+
+    <div class="photo-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Hoa_mai_vang.jpg" alt="Hoa mai">
+        <p>Sắc mai ngày xuân</p>
+    </div>
+
+    <div class="photo-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Hoa_dao.jpg" alt="Hoa đào">
+        <p>Hoa đào khoe sắc</p>
+    </div>
+
+    <div class="photo-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Tet_holiday_in_Vietnam.jpg" alt="Gia đình ngày Tết">
+        <p>Sum họp gia đình</p>
+    </div>
+    <!-- GÓC BÌNH LUẬN -->
+<h3>💬 Góc bình luận & chia sẻ ảnh</h3>
+
+<div class="comment-section">
+    <form id="commentForm">
+        <label>Email:</label>
+        <input type="email" id="email" required placeholder="example@gmail.com">
+
+        <label>Bình luận:</label>
+        <textarea id="comment" rows="4" required placeholder="Cảm nghĩ của bạn về ngày Tết..."></textarea>
+
+        <label>Đăng ảnh:</label>
+        <input type="file" id="image" accept="image/*">
+
+        <button type="submit">Gửi bình luận</button>
+    </form>
+
+    <div id="commentList"></div>
+</div>
+
+</div>
+
+
+    <footer>
+        <p>
+            📌 Báo tường chào mừng Tết Nguyên Đán <br>
+            Thực hiện bởi hs Hồ Diệu Ny / stt 35
+        </p>
+    </footer>
+
+</div>
+<script>
+document.getElementById("commentForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const email = document.getElementById("email").value;
+    const comment = document.getElementById("comment").value;
+    const imageInput = document.getElementById("image");
+    const commentList = document.getElementById("commentList");
+
+    const box = document.createElement("div");
+    box.className = "comment-box";
+    box.innerHTML = `<strong>${email}</strong><p>${comment}</p>`;
+
+    if (imageInput.files.length > 0) {
+        const img = document.createElement("img");
+        img.src = URL.createObjectURL(imageInput.files[0]);
+        box.appendChild(img);
+    }
+
+    commentList.prepend(box);
+
+    this.reset();
+});
+</script>
+
+
+</body>
+</html>
+
+
+
